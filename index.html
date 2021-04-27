@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Facebook Signup</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header class="top-bar">
+    <img class="facebook-logo" src="/imgs/facebook-logo.png">
+    <form action="" method="GET" class="facebook-login">
+      <div class="form-group">
+        <label for="user-email-phone" id="user-email-phone-label">Email ou telefone</label>
+        <input type="text" name="user-email-phone" id="user-email-phone">
+      </div>
+      <div class="form-group">
+        <label for="user-password" id="user-password-label">Senha</label>
+        <input type="password" name="user-password" id="user-password">
+        <p>Esqueceu a conta?</p>
+      </div>
+      <div class="form-control">
+        <button id="button-login">Entrar</button>
+      </div>
+    </form>
+  </header>
+  
+  <main class="main-content">
+    <section>
+      <div class="left-content">
+        <p id='facebook-slogan'>O Facebook ajuda você a se conectar e compartilhar com as pessoas que fazem parte da sua vida.</p>
+        <img id='facebook-networking' src='imgs/networking.png'>
+      </div> 
+    </section>
+    <section>
+      <div class="right-content">
+        <h1>Abra uma conta</h1>
+        <p class="quick-easy">É rápido e fácil.</p>
+        <form class="form">
+          <div id='nomeCompleto'>
+            <input class="input" type="text" name="firstname" placeholder="Nome">
+            <input class="input" type="text" name="lastname" placeholder="Sobrenome">
+          </div>
+          <div>
+            <input class="input" type="text" name="phone_email" placeholder="Celular ou email">
+            <input class="input" type="password" name="password" placeholder="Nova senha">
+          </div>
+          <div>
+            <label class="cinza " for="">Data de nascimento</label>
+            <input class="input" type="text" id="label-birthdate" name="birthdate" placeholder="dd/mm/aaaa">
+            <button type="button" class="buttomInt">?</button>
+          </div>
+          <label class="cinza" id='label-gender' for="">Gênero</label>
+          <div class="radios">
+            <input type="radio" class="inputRadio" name='gender' id='feminino' value="feminino" checked>
+            <label for='feminino' class="radio">Feminino</label>
+            <input type="radio" class="inputRadio" name='gender'id='masculino' value="masculino">
+            <label for='masculino' class="radio">Masculino</label>
+            <input type="radio" class="inputRadio" name='gender'id='personalizado' value="personalizado">
+            <label for='personalizado' class="radio">Personalizado</label>
+            <button type="button" class="buttomInt">?</button>
+          </div>
+          <input class="inputGeder" type="text" name="gender-custom" placeholder="Gênero (opcional)">
+          <div id="letrasMiu">
+            <p class="letrasMiu">Ao clicar em Cadastre-se, você concorda com nossos<span style="color: rgb(7, 7, 184);;"> Termos, Politica de Dados</span> e <span class="colorBlue">Politica de Cookies</span>. Você pode receber notificacoes por SMS e pode cancelar isso quando quiser.</p>
+          </div>
+          <button id="facebook-register" type="submit">Cadastre-se</button> 
+          <div id="invalido"></div>
+          <p class="letrasMiu2"><span class="colorBlue">Criar uma pagina</span> para uma celebridade, Banda ou empresa.</p>
+        </form>
+      </div>   
+    </section>
+  </main>
+  <footer>
+    <nav class="nav-links">
+      <div><span style="color: rgb(110, 107, 107)">Português (Brasil)</span></div>
+      <div>English(US)</div>
+      <div>Español</div>
+      <div>Français(France)</div>
+      <div>Italiano</div>
+      <div>العربية</div>
+      <div>Deutsch</div>
+      <div>हिन्दी</div>
+      <div>中文(简体)</div>
+      <div>日本語</div>
+    </nav>
+    <hr>
+    <p class="endSpace">Cadastre-se  Entrar  Messenger  Facebook Lite  Watch  Pessoas  Páginas  Categorias de Página  Locais  Jogos  Locais  Marketplace  Grupos
+      <br>Portal  Instagram  Local  Campanhas de arrecadação de fundos  Serviços  Sobre  Criar anúncio  Criar Página  Desenvolvedores  Carreiras  Privacidade
+      <br>Cookies  Opçẽs de anúncios  Termos  Ajuda</p>
+    <br />
+    <p class="faceEnd">Facebook © 2020</p>
+  </footer>
+  <script src='script.js'></script>
+</body>
+</html>

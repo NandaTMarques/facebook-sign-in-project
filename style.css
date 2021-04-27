@@ -1,0 +1,207 @@
+* {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  margin: 0;
+}
+.top-bar {
+  align-items: center;
+  background-color: rgb(66, 103, 178);
+  display: flex;
+  height: 100px;
+  justify-content: space-around; 
+}
+
+.top-bar img {
+  width: 200px;
+}
+
+.facebook-login {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  
+}
+
+.form-group {
+  display: flex;
+  flex-direction: column;
+  margin: 0 5px;
+}
+
+.form-group label {
+  color: white;
+  font-size: 14px;
+  margin-bottom: 5px;
+}
+
+.form-group p {
+  color: white;
+  font-size: 14px;
+  opacity: 0.6;
+}
+
+.form-group p:hover {
+  opacity: 1;
+}
+.form-group input{
+  height: 20px;
+}
+
+form input {
+  border: 1px solid rgba(8, 8, 8, 0.333);
+  border-radius: 3px;
+  box-sizing: border-box;
+  height: 25px;
+  margin: 0 0 10px;
+  padding: 4px;
+  width: 100%;
+}
+
+#button-login {
+  background-color: rgb(66, 103, 178);
+  border: 1px solid black;
+  border-radius: 3px;
+  box-sizing: border-box;
+  color: white;
+  height: 25px;
+}
+
+.form-control {
+  display: flex;
+  align-self: flex-end;
+}
+
+.main-content {
+  background-color: rgb(227, 227, 228);
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: center;
+  height: 550px;
+  padding: 0 15%;
+}
+
+.left-content {
+  justify-content: flex-start;
+  padding-top: 30px;
+  width: 800px;
+}
+
+.left-content p {
+  color: rgb(5, 5, 90);
+  width: 500px;
+  font-size: 20px;
+  font-weight: 600;
+}
+.right-content {
+  flex-direction: column;
+  flex-wrap: nowrap;
+  padding-top: 30px;
+  width: 300px;
+}
+.quick-easy{
+  margin: 0 0 20px;
+  color: rgb(59, 58, 58);
+}
+#nomeCompleto {
+  display: flex;
+  flex-direction: row;
+}
+
+.right-content h1 {
+  padding-bottom: 15px;
+  color: rgb(59, 58, 58);
+}
+
+.textInput {
+  display: flex;
+  flex-direction: column;
+  border: gray;
+}
+
+.buttomInt {
+  background-color: rgb(110, 107, 107);
+  border: rgb(110, 107, 107);
+  border-radius: 5px;
+  color: rgb(227, 227, 228);
+  display: flex;
+  flex-direction: row;
+  font-size: 10px;
+  font-weight: 600;
+  height: 12px;
+  justify-content: center;
+  width: 12px;
+}
+.inputGeder {             /*ver*/
+  display: none;
+}
+.radios {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.inputRadio {
+  color: rgb(59, 58, 58);
+  width: 12px;
+
+}
+
+.cinza {
+  color:  rgba(12, 12, 12, 0.333);
+  font-weight: 900;
+}
+
+#facebook-register {
+  background-color: rgb(105, 170, 105);
+  border:  rgb(105, 170, 105);
+  border-radius: 3px;
+  color: white;
+  font-size: 20px;
+  font-weight: 600;
+  height: 40px;
+  width: 200px;
+  margin: 15px;
+}
+
+.colorBlue {
+  color: rgb(7, 7, 184);
+}
+
+#letrasMiu {
+  margin-top: 15 0x;
+}
+.letrasMiu {
+  color: rgb(110, 107, 107);
+  font-size: 12px;
+}
+.letrasMiu2 {
+  color:   rgb(110, 107, 107);
+  font-size: 14px;
+  font-weight: 900;
+}
+.endSpace {
+  line-height: 30px;
+}
+.nav-links {
+  display: flex;
+  flex-direction: row; 
+  padding: 5px;
+  justify-content: space-between;
+}
+footer {
+  color: rgb(7, 7, 184);
+  font-size: 14px;
+  padding: 5px 120px;
+}
+.faceEnd {
+  color: rgb(110, 107, 107);
+}
+.input {
+  border-radius: 4px;
+  height: 20px;
+}
+#invalido {
+  color: red;
+  margin: 5 0px;
+}
